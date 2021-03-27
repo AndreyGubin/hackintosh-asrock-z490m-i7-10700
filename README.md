@@ -1,0 +1,1 @@
+# hackintosh-asrock-z490m-i7-10700
