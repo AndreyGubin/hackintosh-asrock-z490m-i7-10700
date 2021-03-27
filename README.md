@@ -11,9 +11,10 @@
 - USB порты (задние и передние)
 - Сон
 - iCloud, AppStore
+- iMessage, Facetime
 
 Не работает:
-- iMessage, Facetime, TV
+TV
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
