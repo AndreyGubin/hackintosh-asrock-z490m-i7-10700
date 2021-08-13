@@ -5,8 +5,8 @@
 - Монитор с разрешением 2560x1080
 
 ПО:
-- OpenCore 0.6.7
-- Big Sur 11.3.1
+- OpenCore 0.7.2
+- Big Sur 11.4
 
 Работает:
 - WiFi (встроенный в материнскую плату)
@@ -35,6 +35,10 @@
 - Удалил Usbinjectall
 - Добавил Usbmap
 - Установил xhciportlimit = false для совместимости с Big Sur 11.3 и выше
+
+Версия 1.5
+- Обновил OpenCore до версии 0.7.2
+- Обновил AirportItlwm, AppleALC, Lilu, NVMeFix, SMCProcessor, SMCSuperIO, VirtualSMC, WhateverGreen до актуальных на 13 августа 2021 версий
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
