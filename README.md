@@ -10,6 +10,7 @@
 
 Работает:
 - WiFi (встроенный в материнскую плату)
+- Bluetooth
 - USB порты (задние и передние)
 - Сон
 - iCloud, AppStore
@@ -18,7 +19,6 @@
 Не работает:
 - TV
 - Звук по 3.5 и HDMI
-- Bluetooth
 
 Версия 1.1
 - Фикс iServices
@@ -45,6 +45,9 @@
 - Обновил AirportItlwm, AppleALC, Lilu, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 7 мая 2022 версий
 - Добавил IntelBluetoothFirmware для фикса Bluetooth (неудачно)
 - Конфиг переписан с нуля для избежания проблем с обновлением до Monterey
+
+Версия 1.6.1 (нестабильная бета)
+- Добавил BlueToolFixup, теперь Bluetooth работает
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
