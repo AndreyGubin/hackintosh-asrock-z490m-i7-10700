@@ -5,13 +5,12 @@
 - Монитор с разрешением 2560x1080
 
 ПО:
-- OpenCore 0.7.2
-- Big Sur 11.4
+- OpenCore 0.8.0
+- Monterey 12.3.1
 
 Работает:
 - WiFi (встроенный в материнскую плату)
 - Bluetooth
-- Звук по 3.5 и HDMI (DP не проверял)
 - USB порты (задние и передние)
 - Сон
 - iCloud, AppStore
@@ -19,6 +18,8 @@
 
 Не работает:
 - TV
+- Звук по 3.5 и HDMI
+- Bluetooth
 
 Версия 1.1
 - Фикс iServices
@@ -39,6 +40,12 @@
 Версия 1.5
 - Обновил OpenCore до версии 0.7.2
 - Обновил AirportItlwm, AppleALC, Lilu, NVMeFix, SMCProcessor, SMCSuperIO, VirtualSMC, WhateverGreen до актуальных на 13 августа 2021 версий
+
+Версия 1.6 (нестабильная бета)
+- Удалил FakePCIID и FakePCIID_Intel_HDMI_Audio.kext из-за конфликтов с Monterey
+- Обновил AirportItlwm, AppleALC, Lilu, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 7 мая 2022 версий
+- Добавил IntelBluetoothFirmware для фикса Bluetooth (неудачно)
+- Конфиг переписан с нуля для избежания проблем с обновлением до Monterey
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
