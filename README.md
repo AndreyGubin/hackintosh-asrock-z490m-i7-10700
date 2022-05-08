@@ -15,10 +15,10 @@
 - Сон
 - iCloud, AppStore
 - iMessage, Facetime
+- Звук по 3.5 и HDMI
 
 Не работает:
 - TV
-- Звук по 3.5 и HDMI
 
 Версия 1.1
 - Фикс iServices
@@ -48,6 +48,10 @@
 
 Версия 1.6.1 (нестабильная бета)
 - Добавил BlueToolFixup, теперь Bluetooth работает
+
+Версия 1.6.2 (нестабильная бета)
+-  Добавил FakePCIID и FakePCIID_Intel_HDMI_Audio для восстановления звука из репозитория
+https://github.com/mbarbierato/OS-X-Fake-PCI-ID/releases/tag/v1.3.16
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
