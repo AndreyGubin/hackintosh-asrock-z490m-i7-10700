@@ -16,9 +16,7 @@
 - iCloud, AppStore
 - iMessage, Facetime
 - Звук по 3.5 и HDMI
-
-Не активирован:
-- DRM (Для активации необходимо изменить маску на Mac Pro)
+- DRM
 
 Версия 1.1
 - Фикс iServices
@@ -54,8 +52,16 @@
 https://github.com/mbarbierato/OS-X-Fake-PCI-ID/releases/tag/v1.3.16
 
 Версия 1.7
+- Обновил OpenCore до версии 0.8.8
 - Добавил поддержку внешней видеокарты RX 6600XT
 - Обновил AppleALC, Lilu, NVMeFix, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 3 января 2023 версий
+
+Версия 1.7.1
+- Удалил FakePCIID и FakePCIID_Intel_HDMI_Audio.kext, аудио теперь работает нативно
+- Удалил NullEthernet
+- Устранил проблемы с DRM, для активации необходимо выполнить команду в терминале
+
+``defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes``
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
