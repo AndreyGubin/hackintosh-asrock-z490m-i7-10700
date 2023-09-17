@@ -5,8 +5,8 @@
 - Монитор с разрешением 2560x1080
 
 ПО:
-- OpenCore 0.8.8
-- Monterey 12.6.2 (не тестировалось на Ventura)
+- OpenCore 0.9.5
+- Ventura 13.5.2 (не тестировалось на Sonoma)
 
 Работает:
 - WiFi (встроенный в материнскую плату)
@@ -62,6 +62,10 @@ https://github.com/mbarbierato/OS-X-Fake-PCI-ID/releases/tag/v1.3.16
 - Устранил проблемы с DRM, для активации необходимо выполнить команду в терминале
 
 ``defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes``
+
+Версия 1.8
+- Обновил OpenCore до версии 0.9.5
+- Обновил AirportItlwm, AppleALC, BlueToolFixup, IntelBluetoothFirmware, Lilu, RadeonSensor, SMCRadeonGPU, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 16 сентября 2023 версий
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
