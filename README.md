@@ -5,8 +5,8 @@
 - Монитор с разрешением 2560x1080
 
 ПО:
-- OpenCore 0.9.5
-- Ventura 13.5.2 (не тестировалось на Sonoma)
+- OpenCore 0.9.7
+- Sonoma 14.2.1
 
 Работает:
 - WiFi (встроенный в материнскую плату)
@@ -66,6 +66,10 @@ https://github.com/mbarbierato/OS-X-Fake-PCI-ID/releases/tag/v1.3.16
 Версия 1.8
 - Обновил OpenCore до версии 0.9.5
 - Обновил AirportItlwm, AppleALC, BlueToolFixup, IntelBluetoothFirmware, Lilu, RadeonSensor, SMCRadeonGPU, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 16 сентября 2023 версий
+
+Версия 1.9
+- Обновил OpenCore до версии 0.9.7
+- Обновил AppleALC до актуальной на 4 января 2024 версии
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
