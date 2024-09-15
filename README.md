@@ -5,8 +5,8 @@
 - Монитор с разрешением 2560x1080
 
 ПО:
-- OpenCore 0.9.9
-- Sonoma 14.4.1
+- OpenCore 1.0.1
+- Sonoma 14.6.1
 
 Работает:
 - WiFi (встроенный в материнскую плату)
@@ -75,6 +75,11 @@ https://github.com/mbarbierato/OS-X-Fake-PCI-ID/releases/tag/v1.3.16
 - Обновил OpenCore до версии 0.9.9
 - Заменил RadeonSensor.kext и SMCRadeonGPU.kext на SMCRadeonSensors.kext
 - Обновил AppleALC до актуальной на 29 апреля 2024 версии
+
+Версия 1.11
+- Обновил OpenCore до версии 1.0.1
+- Обновил AppleALC, IntelBluetoothFirmware, Lilu, RestrictEvents, SMCRadeonSensors, WhateverGreen, VirtualSMC, SMCSuperIO и SMCProcessor до актуальных на 14 сентября 2024 версий
+- Принял MR от [@PeterSuh-Q3](https://github.com/PeterSuh-Q3) с изменением XhciPortLimit с false на true, начиная с Big Sur 11.3 опция была сломана и в одном из обновлений OpenCore ее починили 
 
 SMBIOS удален, нужно сгенерировать серийные номера
 
